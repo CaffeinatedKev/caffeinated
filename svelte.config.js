@@ -6,7 +6,7 @@ const config = {
   kit: {
     adapter: adapter(),
     env: {
-			privatePrefix: 'PRIVATE_' 
+			privatePrefix: 'SUPABASE_' 
 		}
   },
   preprocess: vitePreprocess(),
